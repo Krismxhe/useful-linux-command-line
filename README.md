@@ -18,6 +18,6 @@ tmux new-s example
 
 tmux attach to the session 'example'
 ```
-tmux attach -t 'example'
+tmux attach -t example
 ```
 
