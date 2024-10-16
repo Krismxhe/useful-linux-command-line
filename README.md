@@ -1,7 +1,15 @@
 ## Useful Linux Command Line
-### Check the number of files under specific path
+
+### Linux command line
+Check the number of files under a specific path
 ```
 ls -l | grep "^-" | wc -l
+```
+
+### scp
+transferring data to the server through SCP
+```
+scp -r I:/example/example_folder/ mengxian@13x.7x.xx.xxx:/target_folder
 ```
 
 ### tmux
