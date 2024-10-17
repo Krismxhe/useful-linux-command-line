@@ -6,6 +6,12 @@ Check the number of files under a specific path
 ls -l | grep "^-" | wc -l
 ```
 
+### zip
+Zip all the files under a specific folder - './example_folder/*' to output.zip
+```
+zip -r output.zip ./example_folder/*
+```
+
 ### scp
 transferring data to the server through SCP
 ```
