@@ -6,6 +6,11 @@ Check the number of files under a specific path
 ls -l | grep "^-" | wc -l
 ```
 
+delete a specific file type under a particular path
+```
+find /example_path/directory -type f -name "*.filetype" -exec rm {} \
+```
+
 ### zip
 Zip all the files under a specific folder - './example_folder/*' to output.zip
 ```
