@@ -8,7 +8,8 @@ ls -l | grep "^-" | wc -l
 
 Delete a specific file type under a particular path
 ```
-find /example_path/directory -type f -name "*.filetype" -exec rm {} \
+cd /target_folder
+rm *.file type
 ```
 
 ### zip
