@@ -41,41 +41,59 @@ tmux attach to the session 'example'
 tmux attach -t example
 ```
 ### cuda
+
 graphic card info
+
 '''
 nvidia-smi
 '''
+
 cuda version info
+
 '''
 nvcc -V
 '''
+
 #### Switch CUDA version
 cuda directory
+
 '''
 ls -l /usr/local
 '''
+
 current default directory
+
 '''
 echo $PATH
 '''
+
 cuda version switch(temporal)
+
 '''
 export PATH=/usr/local/cuda-xx.x:$PATH
 '''
+
 cuda version switch
+
 '''
 vim ~/.bashrc
 '''
+
 Add the following environment variables to the bashrc: "ESC": escape from editing, and "wq": quit and save.
+
 '''
 export PATH=/usr/local/cuda-12.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-12.0/lib64:$LD_LIBRARY_PATH
 '''
+
 Activate the edited the bashrc.
+
 '''
 source ~/.bashrc
 '''
-cuda version info
+
+Double-check the cuda version info
+
 '''
 nvcc -V
 '''
