@@ -1,6 +1,6 @@
 ## Useful Linux Command Line
 ### Anaconda
-#### export conda env and install from .ymal file
+#### Export conda env and install from .ymal file
 
 ```
 conda env export > environment.yaml
