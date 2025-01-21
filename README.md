@@ -1,4 +1,19 @@
 ## Useful Linux Command Line
+### Anaconda
+#### export conda env and install from .ymal file
+
+```
+conda env export > environment.yaml
+```
+
+```
+conda env create -f environment.yaml
+```
+#### Clone existing conda env
+
+```
+conda create --name <new_env> --clone <myenv>
+```
 
 ### linux command line
 Check the number of files under a specific path
